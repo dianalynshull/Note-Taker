@@ -1,22 +1,7 @@
 [
   {
-    "title": "Test Title",
-    "text": "Test text"
-  },
-  {
-    "title": "sfdsafsd",
-    "text": "fdsafdsafd"
-  },
-  {
-    "title": "fdsfdsa",
-    "text": "fdsafdsa"
-  },
-  {
-    "title": "fdsafds",
-    "text": "fdsafdsa"
-  },
-  {
-    "title": "fdsafdsa",
-    "text": "fdsafdsa"
+    "title": "Task One",
+    "text": "Task One",
+    "id": "9eb9f07e-a614-4612-b563-6e824d4ff6de"
   }
 ]
