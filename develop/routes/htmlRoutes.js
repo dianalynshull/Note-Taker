@@ -11,5 +11,7 @@ module.exports = app => {
         res.sendFile(path.join(__dirname, '../public/notes.html'));
     });
     // html route to send any undefined routes to index
-
+    app.get('*', (req, res) => {
+        res.sendFile(path.join(__dirname, '../public/index.html'));
+    });
 };
