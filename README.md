@@ -2,7 +2,7 @@
 
 ![Site](./public/assets/images/sitescreenshot.jpg)
 
-## Table of Content
+## Table of Contents
 * [ Deployed Site ](#Deployed-Site)
 * [ Description ](#Description)
 * [ Installation ](#Installation)
