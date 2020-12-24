@@ -20,4 +20,10 @@ module.exports = app => {
         };
     });
     // app delete route to delete notes from the database
+    app.delete('/api/notes/:id', (req, res) => {
+        const index = db.map((tasks) => { return tasks.id; }).indexOf(req.params.id);
+        db.splice(index, 1);
+        fs.writeFileSync('./db/db.json', JSON.stringify(db, null, 2));
+        res.json(true);
+    });
 };
