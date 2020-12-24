@@ -15,7 +15,7 @@
 
 
 ## Description
-* This application allows users to easily store their todo list on a user friendly website. Users can create, save, and delete todo items using a user friendly javascript frontend and an express backend that stores user's todos in a JSON file.
+* This application allows users to easily store notes on a user friendly website. Users can create, save, and delete notes using a user friendly javascript frontend and an express backend that stores user's notes in a JSON file.
 
 ## Installation
 * Clone down the repo
