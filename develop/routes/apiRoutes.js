@@ -1,4 +1,5 @@
 const db = require('../db/db.json');
+const fs = require('fs');
 
 module.exports = app => {
     // api get route for getting already created notes
@@ -10,6 +11,7 @@ module.exports = app => {
     app.post('/api/notes', async (req, res) => {
         try {
             db.push(req.body);
+            fs.writeFileSync('./db/db.json', JSON.stringify(db, null, 2)); 
             res.json(true);
         } catch (err) {
             console.log(err);
